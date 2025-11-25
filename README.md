@@ -47,11 +47,7 @@ before running the development server.
  
 ### Installing
 
-Packages:
-
-
- 
-clone the repo:
+Database Setup Commands
 
 1. create and activate venv.
 2. install dependencies:
