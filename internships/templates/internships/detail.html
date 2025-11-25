@@ -1,0 +1,10 @@
+<h1>{{ internship.title }}</h1>
+<p>{{ internship.company }}</p>
+<p>{{ internship.location }}</p>
+
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Save</button>
+</form>
+
+<a href="{% url 'home' %}">Home</a>

@@ -1,0 +1,14 @@
+<h1>Saved Internships</h1>
+
+<ul>
+    {% for item in saved_internships %}
+        <li>
+            {{ item.title }} - {{ item.company }}
+            <a href="{% url 'detail' item.id %}">View</a>
+        </li>
+    {% empty %}
+        <li>No saved internships.</li>
+    {% endfor %}
+</ul>
+
+<a href="{% url 'home' %}">Home</a>
