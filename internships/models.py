@@ -1,8 +1,6 @@
 # django models : https://docs.djangoproject.com/en/5.2/topics/db/models/
 # model field types: https://docs.djangoproject.com/en/5.2/ref/models/fields/
 # charfield : https://docs.djangoproject.com/en/5.2/ref/models/fields/#charfield
-# textfield : https://docs.djangoproject.com/en/5.2/ref/models/fields/
-
 
 from django.db import models
 
