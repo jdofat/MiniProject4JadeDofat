@@ -49,7 +49,7 @@ before running the development server.
 Database Setup Commands
 
 Clone the Repository:
-- git clone JadeDofatMiniProject4](https://github.com/jdofat/MiniProject4JadeDofat.git
+- git clone https://github.com/jdofat/MiniProject4JadeDofat.git
 - cd JadeDofatMiniProject4
 
 1. create and activate venv:
