@@ -5,9 +5,21 @@ def home(request):
     return render(request, "internships/home.html")
 
 def search(request):
-    query = request.GET.get("q", "")
-    results = Internship.objects.filter(title__icontains=query) if query else []
-    return render(request, "internships/search.html", {"query": query, "results": results})
+    query = ""
+    results = []
+
+    if request.method == "POST":
+        query = request.POST.get("q", "")
+    elif request.method == "GET":
+        query = request.GET.get("q", "")
+
+    if query:
+        results = Internship.objects.filter(title__icontains=query)
+
+    return render(request, "internships/search.html", {
+        "query": query,
+        "results": results
+    })
 
 def detail(request, pk):
     internship = get_object_or_404(Internship, pk=pk)
