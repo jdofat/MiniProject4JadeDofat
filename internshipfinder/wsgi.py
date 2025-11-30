@@ -1,8 +1,8 @@
-# Django WSGI Overview: https://docs.djangoproject.com/en/5.2/howto/deployment/wsgi/
-# get_wsgi_application Reference: https://docs.djangoproject.com/en/5.2/ref/applications/#django.core.wsgi.get_wsgi_application
-# Environment Variables in Django: https://docs.djangoproject.com/en/5.2/topics/settings/#envvar-DJANGO_SETTINGS_MODULE
-# Django Deployment Guide: https://docs.djangoproject.com/en/5.2/howto/deployment/
-# WSGI vs ASGI Explanation: https://docs.djangoproject.com/en/5.2/howto/deployment/asgi/
+# Django WSGI : https://docs.djangoproject.com/en/5.2/howto/deployment/wsgi/
+# get_wsgi_application : https://docs.djangoproject.com/en/5.2/ref/applications/#django.core.wsgi.get_wsgi_application
+# venv in dj : https://docs.djangoproject.com/en/5.2/topics/settings/#envvar-DJANGO_SETTINGS_MODULE
+# django deployment : https://docs.djangoproject.com/en/5.2/howto/deployment/
+# WSGI ? : https://docs.djangoproject.com/en/5.2/howto/deployment/asgi/
 
 
 import os
