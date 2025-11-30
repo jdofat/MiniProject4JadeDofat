@@ -6,11 +6,12 @@
  
 ## Description
 
-This project is a simple app that uses django to let students
-search for entry level jobs. The Internship Finder also
-allows users to browse internships, view details, and search for opportunities
+This project uses django to let students
+search for entry level jobs. The Internship Finder
+allows users to browse internships and view job details.
 There is also a log in option and a Django admin panel
 for managing internship entries and uses Bootstrap and a modal.
+The POST and GET routes support the search submissions.
 
 # The pages:
 
