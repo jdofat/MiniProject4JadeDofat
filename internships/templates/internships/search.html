@@ -10,7 +10,8 @@
 
 <h1>Search Internships</h1>
 
-<form method="get" action="{% url 'search' %}" class="mb-3">
+<form method="post" action="{% url 'search' %}" class="mb-3">
+    {% csrf_token %}
     <input type="text" name="q" value="{{ query }}" placeholder="Search by title">
     <button type="submit" class="btn btn-primary">Search</button>
 </form>
