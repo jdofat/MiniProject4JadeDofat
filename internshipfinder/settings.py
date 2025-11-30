@@ -1,3 +1,27 @@
+# 1. Django settings overview
+# https://docs.djangoproject.com/en/stable/topics/settings/
+
+# 2. Django project structure (where settings.py comes from)
+# https://docs.djangoproject.com/en/stable/intro/tutorial01/#creating-a-project
+
+# 3. INSTALLED_APPS documentation
+# https://docs.djangoproject.com/en/stable/ref/settings/#installed-apps
+
+# 4. MIDDLEWARE documentation
+# https://docs.djangoproject.com/en/stable/ref/middleware/
+
+# 5. DATABASES (SQLite setup)
+# https://docs.djangoproject.com/en/stable/ref/settings/#databases
+
+# 6. TEMPLATES configuration
+# https://docs.djangoproject.com/en/stable/ref/settings/#templates
+
+# 7. Static files (STATIC_URL, STATICFILES_DIRS)
+# https://docs.djangoproject.com/en/stable/howto/static-files/
+
+# 8. LOGIN_REDIRECT_URL / Authentication settings
+# https://docs.djangoproject.com/en/stable/ref/settings/#auth
+
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
