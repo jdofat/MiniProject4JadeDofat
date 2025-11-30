@@ -10,9 +10,9 @@ This project is a simple app that uses django to let students
 search for entry level jobs. The Internship Finder also
 allows users to browse internships, view details, and search for opportunities
 There is also a log in option and a Django admin panel
-for managing internship entries, and uses Bootstrap with a modal.
+for managing internship entries and uses Bootstrap and a modal.
 
-The pages:
+# The pages:
 
 The Home Page: a starting point with navigation to all main features
 
@@ -36,11 +36,10 @@ This project requires:
 -Python 3
 -Django
 -requirements.txt
--Django
 -SQLite3
 -Bootstrap
 
----> To ensure all necessary packages are installed, create and activate
+---> To ensure necessary packages are installed, create and activate
 a virtual environment, then run pip install -r requirements.txt
 before running the development server.
 
@@ -49,7 +48,14 @@ before running the development server.
 
 Database Setup Commands
 
-1. create and activate venv.
+Clone the Repository:
+- git clone JadeDofatMiniProject4](https://github.com/jdofat/MiniProject4JadeDofat.git
+- cd JadeDofatMiniProject4
+
+1. create and activate venv:
+   python3 -m venv venv
+   source venv/bin/activate
+   
 2. install dependencies:
    pip install -r requirements.txt
 
@@ -57,14 +63,12 @@ Database Setup Commands
    python manage.py makemigrations
    python manage.py migrate
 
-4. create django superuser:
+5. create django admin:
    python manage.py createsuperuser
 
-5. run the development server:
+6. run the development server:
    python manage.py runserver
 
-
- 
  
 ## Authors
  
