@@ -75,6 +75,33 @@ Clone the Repository:
  
 Jade Dofat
 
+# Sources:
+
+- django views:
+- https://docs.djangoproject.com/en/5.2/topics/http/views/
+
+- django render :
+- https://docs.djangoproject.com/en/5.2/intro/tutorial03/#write-views-that-actually-do-something
+
+- get_object_or_404:
+- https://docs.djangoproject.com/en/5.2/topics/http/shortcuts/#get-object-or-404
+
+-  get & post; views:
+- https://docs.djangoproject.com/en/5.2/topics/forms/#the-view
+
+-  models/filtering:
+- https://docs.djangoproject.com/en/5.2/topics/db/queries/#retrieving-specific-objects-with-filters
+
+-  field lookup:
+- https://docs.djangoproject.com/en/5.2/ref/models/querysets/#icontains
+
+- passing context to templates:
+- https://docs.djangoproject.com/en/5.2/intro/tutorial03/#passing-a-context
+
+- views using pk:
+- https://docs.djangoproject.com/en/5.2/intro/tutorial03/#a-shortcut-get-object-or-404
+
+
 ------
 
 ## Rubric
