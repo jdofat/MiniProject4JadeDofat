@@ -55,25 +55,25 @@ before running the development server.
 Database Setup Commands
 
 Clone the Repository:
-- git clone https://github.com/jdofat/MiniProject4JadeDofat.git
+- `git clone https://github.com/jdofat/MiniProject4JadeDofat.git`
 - `cd JadeDofatMiniProject4`
 
 1. create and activate venv:
-   python3 -m venv venv
-   source venv/bin/activate
+   `python3 -m venv venv`
+   `source venv/bin/activate`
    
 2. install dependencies:
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
 
 3. run django migrations:
-   python manage.py makemigrations
-   python manage.py migrate
+   `python manage.py makemigrations
+   python manage.py migrate`
 
 5. create django admin:
-   python manage.py createsuperuser
+   `python manage.py createsuperuser`
 
 6. run the development server:
-   python manage.py runserver
+   `python manage.py runserver`
 
  
 ## Authors
