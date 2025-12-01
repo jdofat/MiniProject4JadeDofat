@@ -3,7 +3,7 @@
 # charfield : https://docs.djangoproject.com/en/5.2/ref/models/fields/#charfield
 
 from django.db import models
-
+# each internship should have title, company, location, description, and URL
 class Internship(models.Model):
     title = models.CharField(max_length=200)
     company = models.CharField(max_length=200)
