@@ -13,9 +13,6 @@
 #  SQLite setup
 # https://docs.djangoproject.com/en/stable/ref/settings/#databases
 
-#  TEMPLATES 
-# https://docs.djangoproject.com/en/stable/ref/settings/#templates
-
 #  STATIC_URL, STATICFILES_DIRS
 # https://docs.djangoproject.com/en/stable/howto/static-files/
 
@@ -52,6 +49,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'internshipfinder.urls'
+
+#  TEMPLATES 
+# https://docs.djangoproject.com/en/stable/ref/settings/#templates
 
 TEMPLATES = [
     {
