@@ -10,3 +10,10 @@ from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "internshipfinder.settings")
 application = get_wsgi_application()
+
+# this should set up django so the app can run on a server
+
+# tells serv which settings file to use
+# uses internshipfinder.settings
+
+# WSGI
