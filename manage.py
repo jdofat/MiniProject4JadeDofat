@@ -4,7 +4,7 @@
 # Understanding sys.argv in Python : https://docs.python.org/3/library/sys.html#sys.argv
 # Python os module documentation: https://docs.python.org/3/library/os.html
 
-# need this file so you i run all Django commands
+# need this file so i can run all Django commands
 import os
 import sys
 
