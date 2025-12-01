@@ -11,7 +11,6 @@ search for entry level jobs. The Internship Finder
 allows users to browse internships and view job details.
 There is also a log in option and a Django admin panel
 for managing internship entries and uses Bootstrap and a modal.
-The POST and GET routes support the search submissions.
 
 # The pages:
 
