@@ -27,3 +27,8 @@ urlpatterns = [
     path('', include('internships.urls')),
     path('accounts/', include('django.contrib.auth.urls')),
 ]
+
+# this connect different parts of the project to the main URL system
+# connects /admin/ to admin site
+# sends root pages to main internships app
+# uses django login/logout/password URLs --> /accounts/
