@@ -34,10 +34,15 @@ listings and user data
 ### Dependencies
  
 This project requires:
+
 -Python 3
+
 -Django
+
 -requirements.txt
+
 -SQLite3
+
 -Bootstrap
 
 ---> To ensure necessary packages are installed, create and activate
@@ -51,7 +56,7 @@ Database Setup Commands
 
 Clone the Repository:
 - git clone https://github.com/jdofat/MiniProject4JadeDofat.git
-- cd JadeDofatMiniProject4
+- `cd JadeDofatMiniProject4`
 
 1. create and activate venv:
    python3 -m venv venv
